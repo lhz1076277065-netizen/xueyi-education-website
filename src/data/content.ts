@@ -344,6 +344,138 @@ export const successStories: SuccessStory[] = [
     placeholderImage:
       '【图片：学员案例】郑同学在帝国理工学院女王塔或实验室内的个人照，理工科创新氛围',
   },
+  {
+    name: '孙同学',
+    university: 'University of Hong Kong',
+    universityZh: '香港大学',
+    program: '金融学博士',
+    scholarship: 'HKPFS香港政府奖学金 (HK$331,200/年)',
+    quote:
+      'HKPFS的竞争太激烈了，全港每年只有约300个名额。雪姨留学的导师本身就是HKPFS获得者，帮我从研究计划到面试做了最精准的准备。',
+    tags: ['博士', '香港', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】孙同学在香港大学主楼前的个人照，维多利亚港背景，国际化都市学术氛围',
+  },
+  {
+    name: '何同学',
+    university: 'University of Malaya',
+    universityZh: '马来亚大学',
+    program: '教育学博士',
+    scholarship: '全额奖学金 (MYR 42,000/年)',
+    quote:
+      '马来西亚读博性价比极高，马来亚大学QS排名前70。雪姨留学的导师帮我找到了最匹配的导师，还指导我拿到了马来西亚政府的全额资助。',
+    tags: ['博士', '马来西亚', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】何同学在马来亚大学标志性建筑前的个人照，热带校园风情',
+  },
+  {
+    name: '林同学',
+    university: 'University of Tokyo',
+    universityZh: '东京大学',
+    program: '人工智能博士',
+    scholarship: 'MEXT日本政府奖学金 (¥1,740,000/年)',
+    quote:
+      '日本博士申请流程和欧美完全不同，需要先联系教授获得内诺。雪姨留学的导师对日本体系非常熟悉，帮我用日语写了一封完美的研究意向书。',
+    tags: ['博士', '日本', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】林同学在东京大学安田讲堂或赤门前的个人照，日式学术风格',
+  },
+  {
+    name: '黄同学',
+    university: 'Seoul National University',
+    universityZh: '首尔国立大学',
+    program: '材料科学博士',
+    scholarship: 'SNU Global Scholarship (₩36,000,000/年)',
+    quote:
+      'SNU是韩国最顶尖的大学，申请难度不亚于藤校。雪姨留学的导师帮我攻克了韩英双语的材料准备，研究计划得到了教授的当场肯定。',
+    tags: ['博士', '韩国', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】黄同学在首尔国立大学校园内的个人照，现代与传统融合的韩国学术氛围',
+  },
+  {
+    name: '曹同学',
+    university: 'University of Macau',
+    universityZh: '澳门大学',
+    program: '旅游管理博士',
+    scholarship: 'UM PhD Assistantship (MOP 150,000/年)',
+    quote:
+      '澳门大学近年来科研投入非常大，旅游管理更是王牌专业。雪姨留学帮我精准定位，还辅导我发表了一篇SSCI论文作为申请加分项。',
+    tags: ['博士', '澳门', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】曹同学在澳门大学新校区图书馆前的个人照，现代岭南建筑风格',
+  },
+  {
+    name: '梁同学',
+    university: 'University of Auckland',
+    universityZh: '奥克兰大学',
+    program: '环境科学硕士',
+    scholarship: 'UoA International Scholarship (NZD 15,000/年)',
+    quote:
+      '新西兰的留学体验太好了，导师非常nice。雪姨留学的老师帮我找到环境科学与毛利文化交叉的独特研究方向，让我的申请脱颖而出。',
+    tags: ['硕士', '新西兰', '半奖'],
+    placeholderImage:
+      '【图片：学员案例】梁同学在奥克兰大学钟楼前的个人照，蓝天白云下的新西兰校园',
+  },
+  {
+    name: '许同学',
+    university: 'Technical University of Munich',
+    universityZh: '慕尼黑工业大学',
+    program: '机械工程博士',
+    scholarship: 'DAAD奖学金 (€1,200/月)',
+    quote:
+      '德国博士很多是职位制，拿工资读博。雪姨留学的导师帮我精准定位了TUM的一个开放博士职位，从申请到面试只用了一个半月就拿到offer。',
+    tags: ['博士', '德国', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】许同学在慕尼黑工业大学主楼前的个人照，德国工业学术风格',
+  },
+  {
+    name: '丁同学',
+    university: 'Sorbonne University',
+    universityZh: '索邦大学',
+    program: '艺术史博士',
+    scholarship: 'Eiffel卓越奖学金 (€1,181/月)',
+    quote:
+      '法国文科博士申请对语言要求极高。雪姨留学的导师帮我在研究计划中融入了跨文化视角，还指导我准备了一段流利的法语面试，最终拿下Eiffel奖学金。',
+    tags: ['博士', '法国', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】丁同学在索邦大学古典建筑前的个人照，法式学术艺术氛围',
+  },
+  {
+    name: '罗同学',
+    university: 'Delft University of Technology',
+    universityZh: '代尔夫特理工大学',
+    program: '建筑学硕士',
+    scholarship: 'TU Delft Excellence Scholarship (€25,000/年)',
+    quote:
+      'TUD的建筑学全球顶尖，作品集是关键。雪姨留学的导师本身就是TUD校友，从作品集叙事逻辑到每个项目的排版都给了非常专业的建议。',
+    tags: ['硕士', '荷兰', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】罗同学在代尔夫特理工大学图书馆或建筑学院前的个人照，荷兰现代设计风格',
+  },
+  {
+    name: '沈同学',
+    university: 'ETH Zurich',
+    universityZh: '苏黎世联邦理工',
+    program: '计算机科学硕士',
+    scholarship: 'ETH Excellence Scholarship (CHF 24,000/年)',
+    quote:
+      'ETH是欧洲最强的理工院校，QS排名常年前十。雪姨留学的导师帮我精准打磨了SOP，突出了我在分布式系统方向的科研潜力，顺利拿下录取和奖学金。',
+    tags: ['硕士', '瑞士', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】沈同学在ETH苏黎世主楼前的个人照，阿尔卑斯山背景下的现代校园',
+  },
+  {
+    name: '韩同学',
+    university: 'University of Barcelona',
+    universityZh: '巴塞罗那大学',
+    program: '海洋科学博士',
+    scholarship: '西班牙政府奖学金 (€16,800/年)',
+    quote:
+      '西班牙在地中海海洋研究领域全球领先。雪姨留学的导师帮我找到了UB与CSIC联合培养的博士项目，研究经费充足，还能在地中海做田野调查！',
+    tags: ['博士', '西班牙', '全奖'],
+    placeholderImage:
+      '【图片：学员案例】韩同学在巴塞罗那大学历史建筑前的个人照，地中海阳光学术氛围',
+  },
 ];
 
 export const storyFilters = [
@@ -353,6 +485,20 @@ export const storyFilters = [
   { label: '全奖', value: '全奖' },
   { label: '美国', value: '美国' },
   { label: '英国', value: '英国' },
+  { label: '加拿大', value: '加拿大' },
+  { label: '澳洲', value: '澳洲' },
+  { label: '新加坡', value: '新加坡' },
+  { label: '香港', value: '香港' },
+  { label: '马来西亚', value: '马来西亚' },
+  { label: '日本', value: '日本' },
+  { label: '韩国', value: '韩国' },
+  { label: '澳门', value: '澳门' },
+  { label: '新西兰', value: '新西兰' },
+  { label: '德国', value: '德国' },
+  { label: '法国', value: '法国' },
+  { label: '荷兰', value: '荷兰' },
+  { label: '瑞士', value: '瑞士' },
+  { label: '西班牙', value: '西班牙' },
 ];
 
 // ── Mentors ──

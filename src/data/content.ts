@@ -633,10 +633,10 @@ export const newsItems: NewsItem[] = [
 export const contactContent = {
   headline: '开启你的留学之旅',
   subheadline: '填写下方表单，我们将在24小时内与你联系，提供免费的留学评估和规划建议',
-  phone: '400-XXX-XXXX',
-  email: 'info@xueyiedu.com',
-  wechat: 'xueyiliuxue',
-  address: '上海市长宁区XX路XX号XX大厦XX层',
+  phone: '+60 108996066 / +86 13304118423',
+  email: 'xueyiliuxue@yeah.net',
+  wechat: 'XUEYILIUXUE',
+  address: '辽宁省大连市沙河口区中央公馆A303',
   placeholderImage: '【图片：联系CTA区域背景】现代化办公室洽谈场景，柔和灯光，专业温馨的咨询氛围',
 };
 

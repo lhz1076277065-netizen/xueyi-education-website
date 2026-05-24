@@ -117,9 +117,8 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="mt-6 pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-2 text-xs text-white/30">
+        <div className="mt-6 pt-6 border-t border-white/5 text-center text-xs text-white/30">
           <span>&copy; {new Date().getFullYear()} {footerContent.companyName} All Rights Reserved.</span>
-          <span>沪ICP备XXXXXXXX号-X</span>
         </div>
       </div>
     </footer>

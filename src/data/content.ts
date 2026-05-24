@@ -661,10 +661,10 @@ export const footerContent = {
     { label: '联系我们', href: '#contact' },
   ],
   contact: {
-    phone: '400-XXX-XXXX',
-    email: 'info@xueyiedu.com',
-    wechat: 'xueyiliuxue',
-    address: '上海市长宁区XX路XX号',
+    phone: '+60 108996066 / +86 13304118423',
+    email: 'xueyiliuxue@yeah.net',
+    wechat: 'XUEYILIUXUE',
+    address: '辽宁省大连市沙河口区中央公馆A303',
   },
   qrPlaceholder: '【图片：二维码】左侧为微信公众号二维码，右侧为客服微信二维码，扫码关注获取最新留学资讯',
 };

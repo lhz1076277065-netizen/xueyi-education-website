@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-navy-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-gold-400 text-white;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply text-3xl md:text-4xl font-bold text-navy-900 text-center;
+  }
+
+  .section-subheading {
+    @apply text-gray-500 text-lg text-center mt-4 max-w-2xl mx-auto;
+  }
+
+  .gold-line {
+    @apply w-16 h-1 bg-gold-500 mx-auto mt-4 mb-12;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-600 text-white font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-white/80 text-white font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:bg-white hover:text-navy-900;
+  }
+
+  .btn-outline-dark {
+    @apply inline-flex items-center gap-2 border-2 border-navy-900 text-navy-900 font-semibold px-8 py-3 rounded-lg transition-all duration-300 hover:bg-navy-900 hover:text-white;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-8;
+  }
+
+  .placeholder-img {
+    @apply bg-gradient-to-br from-navy-100 to-navy-200 rounded-2xl flex items-center justify-center text-navy-400 text-sm text-center p-4;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-navy-50;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-navy-300 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-navy-400;
+}
